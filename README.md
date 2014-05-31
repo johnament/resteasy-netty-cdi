@@ -1,3 +1,6 @@
+This code has been contributed upstream to Resteasy: https://github.com/resteasy/Resteasy/tree/master/jaxrs/server-adapters/resteasy-netty4-cdi
+
+
 # Integrating Weld + Netty + RestEasy
 
 Why would I do something like this?  I recently had a need to run a simple socket server (rather than a true application server) for the first time in a few years.  I wanted to still use some of my enterprisey tools, I needed it to be a basic REST server, but run at very small amounts of memory.  I've also been a bit unhappy with my application server of choice, mostly because of how my team wants to build things and deploy things.
